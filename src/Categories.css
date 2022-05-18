@@ -1,0 +1,70 @@
+.card {
+    padding: 30px;
+    border:  2px solid gray;
+    border-radius: 20px;
+    width:  300px;
+    margin: 30px;
+}
+
+#a {
+    background-color: rgb(241, 153, 201);
+    width :100px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+#a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#b {
+    background-color: rgb(171, 212, 228);
+    width :100px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+#b:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#c {
+    background-color: rgb(110, 110, 212);
+    width :100px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+#c:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+img {
+    max-width : 300px;
+}
+
+#categories {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.author {
+    font-weight: bold;
+}
+
+.author:hover {
+    text-decoration: underline;
+    color: darkgray;
+    cursor: pointer;
+}
+
+span {
+    color: gray;
+}
